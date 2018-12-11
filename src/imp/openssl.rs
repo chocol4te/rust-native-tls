@@ -9,7 +9,7 @@ use self::openssl::ssl::{
     self, MidHandshakeSslStream, SslAcceptor, SslConnector, SslContextBuilder, SslMethod,
     SslVerifyMode,
 };
-use self::openssl::x509::{X509, X509VerifyResult};
+use self::openssl::x509::{X509VerifyResult, X509};
 use std::error;
 use std::fmt;
 use std::io;
